@@ -34,6 +34,10 @@ public class next extends AppCompatActivity {
                 Intent myintent3 =new Intent(next.this,About.class);
                 startActivity(myintent3);
                 break;
+            case R.id.call:
+                Intent myintent4 =new Intent(next.this,Db_conent.class);
+                startActivity(myintent4);
+                break;
 
             default:
                 return false;
